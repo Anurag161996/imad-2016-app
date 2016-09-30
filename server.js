@@ -14,7 +14,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'C:\Users\Anurag\Desktop\folder\Photo__1474212096_112.133.236.71.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
 
